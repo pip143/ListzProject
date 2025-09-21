@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fffbe6;
+    margin: 20px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+a {
+    color: darkred;
+    text-decoration: underline;
+}
