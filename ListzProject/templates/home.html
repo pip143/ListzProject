@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to Listz ✅</h1>
+    <ul>
+        {% for item in items %}
+            <li>{{ item.title }} (added on {{ item.created_at|date:"M d, Y H:i" }})</li>
+        {% empty %}
+            <li>No items yet</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
